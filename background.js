@@ -5,7 +5,7 @@ chrome.browserAction.onClicked.addListener(() =>
 const raiseNotification = (request) => {
   return chrome.notifications.create('', {
     type: 'basic',
-    iconUrl: 'assets/128x128.png',
+    iconUrl: 'assets/logo-128.png',
     title: 'Opsgenie Alert',
     message: request.body,
     contextMessage: request.context
