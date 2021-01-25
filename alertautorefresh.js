@@ -80,4 +80,4 @@ const autoRefreshAlertList = () => {
   })
 };
 
-setInterval(autoRefreshAlertList().autoRefresh, 30000);
+setInterval(autoRefreshAlertList().autoRefresh, 10000);
